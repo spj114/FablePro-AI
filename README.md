@@ -29,7 +29,7 @@
 - Google Gemini API key
 
 ### Installation
-For a detailed setup guide, see docs/setup.md.
+For a detailed setup guide, see docs/setup.md
 
 ```bash
 # Clone the repository
