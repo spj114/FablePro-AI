@@ -29,7 +29,7 @@
 - Google Gemini API key
 
 ### Installation
-For a detailed setup guide, see docs/setup.md
+For a detailed setup guide, see [setup.md](docs/setup.md)
 
 ```bash
 # Clone the repository
@@ -52,7 +52,7 @@ streamlit run characterbot.py
 ```
 
 ## 🎮 How to Use
-For a detailed usage guide, see docs/usage.md.
+For a detailed usage guide, see [usage.md](docs/usage.md)
 
 
 ### 1. Upload a Book
@@ -78,8 +78,7 @@ FablePro AI uses a powerful combination of technologies:
   <img src="images/screenshot-architecture.png" alt="FablePro AI Architecture" width="650" />
 </div>
 
-For a troubleshooting, see docs/troubleshooting.md.
-
+For troubleshooting, see [troubleshooting.md](docs/troubleshooting.md)
 ## 🛠️ Technical Details
 
 - **Frontend**: Streamlit for a clean, interactive UI
