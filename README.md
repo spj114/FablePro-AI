@@ -77,6 +77,10 @@ Choose from automatically detected characters.
 Ask questions and get in-character responses.
 
 <div align="center">
+  <img src="images/chatting1.png" alt="FablePro AI Conversation with Characters" width="700" />
+</div>
+
+<div align="center">
   <img src="images/chatting.png" alt="FablePro AI Conversation with Characters" width="700" />
 </div>
 
