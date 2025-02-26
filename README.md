@@ -33,7 +33,7 @@ For a detailed setup guide, see [setup.md](docs/setup.md)
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/FablePro-AI.git
+git clone https://github.com/spj114/FablePro-AI.git
 cd FablePro-AI
 
 # Set up virtual environment
