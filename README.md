@@ -29,6 +29,7 @@
 - Google Gemini API key
 
 ### Installation
+For a detailed setup guide, see docs/setup.md.
 
 ```bash
 # Clone the repository
@@ -51,6 +52,8 @@ streamlit run characterbot.py
 ```
 
 ## 🎮 How to Use
+For a detailed usage guide, see docs/usage.md.
+
 
 ### 1. Upload a Book
 Select any PDF book from your collection and process it.
@@ -75,6 +78,8 @@ FablePro AI uses a powerful combination of technologies:
   <img src="images/screenshot-architecture.png" alt="FablePro AI Architecture" width="650" />
 </div>
 
+For a troubleshooting, see docs/troubleshooting.md.
+
 ## 🛠️ Technical Details
 
 - **Frontend**: Streamlit for a clean, interactive UI
@@ -87,14 +92,17 @@ FablePro AI uses a powerful combination of technologies:
 
 ```
 FablePro-AI/
-├── characterbot.py     # Main application file
-├── requirements.txt    # Dependencies
-├── .env                # API key configuration
-├── README.md           # Project documentation
-├── usage.md            # Usage guide
-├── troubleshooting.md  # Troubleshooting tips
-├── images/             # Screenshots and logo
-└── book_embeddings.faiss  # Generated vector database
+│── app.py                 # Main Streamlit application
+│── process_book.py        # Handles book processing
+│── vector_store.py        # Manages vector embeddings
+│── requirements.txt       # Python dependencies
+│── .env.example           # Example environment file
+│── docs/                  # Documentation folder
+│   │-- setup.md           # Detailed setup instructions
+│   │-- usage.md           # How to use the application
+│   │-- troubleshooting.md  # Common issues and solutions
+│── assets/                # Screenshots for README
+│── README.md              # Project documentation
 ```
 
 ## 🤝 Contributing
