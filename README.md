@@ -54,15 +54,30 @@ streamlit run characterbot.py
 ## 🎮 How to Use
 For a detailed usage guide, see [usage.md](docs/usage.md)
 
-
 ### 1. Upload a Book
 Select any PDF book from your collection and process it.
+
+<div align="center">
+  <img src="images/uploading_book.png" alt="FablePro AI Uploading Books" width="700" />
+</div>
+
+<div align="center">
+  <img src="images/processing_complete.png" alt="FablePro AI Processing Complete" width="700" />
+</div>
 
 ### 2. Character Selection
 Choose from automatically detected characters.
 
+<div align="center">
+  <img src="images/characters_dropdown.png" alt="FablePro AI Character Selection" width="700" />
+</div>
+
 ### 3. Start Chatting
 Ask questions and get in-character responses.
+
+<div align="center">
+  <img src="images/chatting.png" alt="FablePro AI Conversation with Characters" width="700" />
+</div>
 
 ## 🧩 How It Works
 
