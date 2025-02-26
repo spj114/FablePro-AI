@@ -42,6 +42,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+After installing requirements,  download the language model:
 python -m spacy download en_core_web_sm
 
 # Create .env file with your API key
