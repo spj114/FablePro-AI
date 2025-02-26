@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="images/logo.png" alt="FablePro AI Logo" width="200" />
   <h1>FablePro AI</h1>
   <p><em>Step into the story. Talk to any character from your favorite books.</em></p>
   
