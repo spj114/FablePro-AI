@@ -124,5 +124,5 @@ The GPL-3.0 is a strong copyleft license that requires anyone who distributes yo
 ---
 
 <div align="center">
-  <p>Built with ❤️ by Your Name</p>
+  <p>Built with ❤️ by Shreyas</p>
 </div>
