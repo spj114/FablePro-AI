@@ -6,4 +6,3 @@ google-generativeai
 langchain-google-genai
 python-dotenv
 spacy
-en-core-web-sm
