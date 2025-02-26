@@ -24,6 +24,9 @@ venv\Scripts\activate
 Once the virtual environment is activated, install required packages:
 ```cmd
 pip install -r requirements.txt
+```
+After installing requirements,  download the language model:
+```cmd
 python -m spacy download en_core_web_sm
 ```
 
