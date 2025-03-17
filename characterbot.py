@@ -14,11 +14,17 @@ load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
+# Set the API key as an environment variable for langchain
+os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
+
 # Paths
 VECTOR_DB_PATH = "book_embeddings.faiss"
 
-# Initialize Google Generative AI Embeddings
-embedding_model = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+# Initialize Google Generative AI Embeddings with explicit API key
+embedding_model = GoogleGenerativeAIEmbeddings(
+    model="models/embedding-001",
+    google_api_key=GEMINI_API_KEY
+)
 
 # Load spaCy model for character extraction
 nlp = spacy.load("en_core_web_sm")
